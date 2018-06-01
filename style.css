@@ -1,0 +1,50 @@
+.done {
+	text-decoration: line-through;
+}
+
+html {
+    color: #fff;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 15px;
+    font-weight: 300px;
+}
+
+h1 {
+    text-transform: uppercase;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    font-size: 240%;
+
+    
+}
+
+body {
+	background-image:linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.6)), url(backgroundimage.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.main-nav{
+    list-style: none;
+    margin-top: 50px;
+}
+
+
+button {
+	border-radius: 20px;
+	background-color: #000033;
+	color: #fff;
+	border: 1px solid #000033;
+	margin-left:10px;
+}
+
+button:hover {
+	border: 2px solid #000033;
+}
+
+li {
+	margin-bottom: 7px;
+	font-size: 120%;
+}
